@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXTreeTableView layoutX="277.0" layoutY="165.0" />
+      <JFXTextField layoutX="277.0" layoutY="101.0" prefHeight="25.0" prefWidth="248.0" />
+      <JFXButton layoutX="277.0" layoutY="126.0" prefHeight="25.0" prefWidth="248.0" text="Search Booking" />
+      <JFXTabPane layoutX="64.0" layoutY="35.0" prefHeight="53.0" prefWidth="171.0" />
+      <JFXTabPane layoutX="253.0" layoutY="52.0" prefHeight="36.0" prefWidth="208.0" />
+      <JFXButton buttonType="RAISED" layoutX="277.0" layoutY="586.0" prefHeight="53.0" prefWidth="248.0" text="Confirm" />
+   </children>
+</AnchorPane>

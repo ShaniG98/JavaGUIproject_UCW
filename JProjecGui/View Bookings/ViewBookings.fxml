@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="807.0" fitWidth="1207.0">
+         <image>
+            <Image url="@maxresdefault.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="35.0" layoutY="20.0" opacity="0.75" prefHeight="746.0" prefWidth="462.0" style="-fx-background-color: white;">
+         <children>
+            <JFXTreeTableView layoutX="96.0" layoutY="310.0" prefHeight="400.0" prefWidth="265.0" />
+            <ImageView fitHeight="139.0" fitWidth="338.0" layoutX="33.0" layoutY="38.0" pickOnBounds="true">
+               <image>
+                  <Image url="@ExcursionLogo%60.png" />
+               </image>
+            </ImageView>
+            <JFXTextField labelFloat="true" layoutX="113.0" layoutY="216.0" prefHeight="25.0" prefWidth="232.0" unFocusColor="#499a38" />
+            <JFXButton buttonType="RAISED" layoutX="87.0" layoutY="260.0" opacity="0.75" prefHeight="25.0" prefWidth="135.0" ripplerFill="#ff0f0fa3" style="-fx-background-radius: 15; -fx-background-insets: 0; -fx-background-color: navy;" text="Search Booking" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="231.0" layoutY="260.0" opacity="0.75" prefHeight="25.0" prefWidth="135.0" ripplerFill="#ff0f0fa3" style="-fx-background-insets: 0; -fx-background-radius: 15; -fx-background-color: navy;" text="Cancel Booking" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
